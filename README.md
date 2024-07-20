@@ -3,6 +3,8 @@ I want to sharpen my skills with next.js
 I have been hearing a lot about framer motions library so will be experimenting with that.
 I have heard great things about Vercel so will be deploying there.
 
+branch MAIN changed to MASTER
+
 ## Getting Started
 
 First, run the development server:
