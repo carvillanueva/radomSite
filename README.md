@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Random Website
+I want to sharpen my skills with next.js
+I have been hearing a lot about framer motions library so will be experimenting with that.
+I have heard great things about Vercel so will be deploying there.
 
 ## Getting Started
 
