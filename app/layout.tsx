@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="relative">
       <body className={twMerge(dmSans.className, "antialiased bg-[#EAEEFE]")}>
         {children}
       </body>
