@@ -64,7 +64,7 @@ export const Pricing = () => {
           Free forever. Upgrade for unlimited tasks, better security, and
           exlusive feautres.
         </p>
-        <div className="flex flex-col gap-6 items-center mt-10">
+        <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
           {pricingTiers.map(
             ({
               title,
