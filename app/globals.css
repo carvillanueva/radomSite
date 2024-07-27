@@ -39,3 +39,8 @@
     @apply p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;
   }
 }
+
+/* .container  */
+  /* min-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem; Optional: Adjust padding as needed */
