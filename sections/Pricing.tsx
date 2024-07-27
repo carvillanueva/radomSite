@@ -2,12 +2,7 @@
 
 import CheckIcon from "@/public/assets/check.svg";
 import { twMerge } from "tailwind-merge";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from "framer-motion";
+import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
@@ -101,16 +96,17 @@ export const Pricing = () => {
                     {popular === true && (
                       <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
                         <motion.span
-                        animate={{
-                          backgroundPositionX: "100%",
-                        }}
-                        transition={{
-                          duration: 1,
-                          repeat: Infinity,
-                          ease: "linear",
-                          repeatType: "loop"
-                        }}
-                        className="bg-[linear-gradient(to_right,#DD7DDf,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDf,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium">
+                          animate={{
+                            backgroundPositionX: "100%",
+                          }}
+                          transition={{
+                            duration: 1,
+                            repeat: Infinity,
+                            ease: "linear",
+                            repeatType: "loop",
+                          }}
+                          className="bg-[linear-gradient(to_right,#DD7DDf,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDf,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium"
+                        >
                           Popular
                         </motion.span>
                       </div>
