@@ -10,14 +10,8 @@ import avatar7 from "@/public/assets/avatar-7.png";
 import avatar8 from "@/public/assets/avatar-8.png";
 import avatar9 from "@/public/assets/avatar-9.png";
 import Image from "next/image";
-import { twMerge } from "tailwind-merge";
 import React from "react";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from "framer-motion";
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
@@ -83,7 +77,7 @@ const thirdColumn = testimonials.slice(6, 9);
 const TestimonalsColumn = (props: {
   className?: string;
   testimonials: typeof testimonials;
-  duration?:number
+  duration?: number;
 }) => (
   <div className={props.className}>
     <motion.div
